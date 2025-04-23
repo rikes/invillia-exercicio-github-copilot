@@ -136,6 +136,60 @@ button:hover {
   display: none;
 }
 
+.styled-list {
+  list-style-type: disc;
+  margin: 10px 20px;
+  padding: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.styled-list li {
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+.styled-list li:hover {
+  color: #007BFF;
+  cursor: pointer;
+}
+
+.styled-participants {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px 0;
+  border-top: 2px solid #ccc;
+  padding-top: 15px;
+}
+
+.styled-participants li {
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.styled-participants li:hover {
+  background-color: #e8f0fe;
+  border-color: #90caf9;
+  color: #1a237e;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.styled-participants li::before {
+  content: "👤";
+  font-size: 1.2rem;
+  color: #1a237e;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
